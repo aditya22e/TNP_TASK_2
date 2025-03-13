@@ -16,26 +16,26 @@ Uses excelize for reading Excel files and Go templates for text generation.
 
 Project Structure
 
-/your-app
+/TNP_TASK_2
 ├── assets
-│   └── dummy.xlsx            # Sample Excel file with travel data.
+│   └── dummy.xlsx            // Dummy Excel file with travel data.
 ├── cmd
-│   └── main.go               # Entry point.
+│   └── main.go        // Entry point.
 ├── internal
 │   ├── controllers
-│   │   └── excel_controller.go  # API controller for file upload.
+│   │   └── excel_controller.go  
 │   ├── middleware
-│   │   └── validate_excel.go    # Middleware for validating Excel file.
+│   │   └── validate_excel.go    
 │   ├── models
-│   │   └── excel.go             # Data model for Excel records.
+│   │   └── excel.go             
 │   └── services
-│       └── template_service.go  # Core logic to process Excel and templates.
+│       └── template_service.go  
 ├── pkg
 │   └── utils
-│       └── file_utils.go        # Utility functions for file handling.
+│       └── file_utils.go        
 ├── templates
-│   └── template.txt           # Predefined text template.
-├── uploads                    # Directory for uploaded files.
+│   └── template.txt           
+├── uploads          
 ├── go.mod                     # Go module file.
 ├── go.sum                     # Dependencies file.
 └── README.md                  # Project documentation.
