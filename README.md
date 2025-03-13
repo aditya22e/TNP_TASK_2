@@ -15,7 +15,8 @@ Uses excelize for reading Excel files and Go templates for text generation.
 
 Project Structure
 
-/your-app
+```text
+/TNP_TASK_2
 ├── assets
 │   └── dummy.xlsx            # Sample Excel file with travel data.
 ├── cmd
@@ -38,4 +39,4 @@ Project Structure
 ├── go.mod                     # Go module file.
 ├── go.sum                     # Dependencies file.
 └── README.md                  # Project documentation.
-
+```
