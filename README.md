@@ -1,4 +1,3 @@
-# TNP_TASK_2
 Automated Excel Template Filler
 
 This Go project automates the process of filling template files using data from an Excel sheet. It reads an Excel file containing a list of people along with the places they have visited and plan to visit, then uses a predefined text template to generate personalized messages.
@@ -16,8 +15,7 @@ Uses excelize for reading Excel files and Go templates for text generation.
 
 Project Structure
 
-```text
-/TNP_TASK_2
+/your-app
 ├── assets
 │   └── dummy.xlsx            # Sample Excel file with travel data.
 ├── cmd
@@ -41,5 +39,3 @@ Project Structure
 ├── go.sum                     # Dependencies file.
 └── README.md                  # Project documentation.
 
-.
-```

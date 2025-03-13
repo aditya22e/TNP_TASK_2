@@ -1,0 +1,13 @@
+Hello {{.Name}},
+
+Here are the top 3 places you visited:
+1. {{.Visited1}}
+2. {{.Visited2}}
+3. {{.Visited3}}
+
+And here are the top 3 places you plan to visit:
+1. {{.Planned1}}
+2. {{.Planned2}}
+3. {{.Planned3}}
+
+Happy Travels!
