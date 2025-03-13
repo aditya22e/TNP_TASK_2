@@ -4,14 +4,31 @@ This Go project automates the process of filling template files using data from 
 
 Features
 
-Reads an Excel file (dummy.xlsx) containing travel data.
+- Reads an Excel file (dummy.xlsx) containing travel data.
 
-Fills a text template with data extracted from the Excel file.
+- Fills a text template with data extracted from the Excel file.
 
-Provides an API to upload an Excel file and get personalized output.
+- Provides an API to upload an Excel file and get personalized output.
 
-Uses excelize for reading Excel files and Go templates for text generation.
+- Uses excelize for reading Excel files and Go templates for text generation.
 
+The excel file have 7 columns and storing the name of the person and 3 places that they've visited and 3 places that they plan to visit
+while template.txt shows those stuff as
+```text
+Hello {{.Name}},
+
+Here are the top 3 places you visited:
+1. {{.Visited1}}
+2. {{.Visited2}}
+3. {{.Visited3}}
+
+And here are the top 3 places you plan to visit:
+1. {{.Planned1}}
+2. {{.Planned2}}
+3. {{.Planned3}}
+
+Happy Travels!
+```
 
 Project Structure
 
