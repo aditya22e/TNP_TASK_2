@@ -19,25 +19,27 @@ Project Structure
 ```text
 /TNP_TASK_2
 ├── assets
-│   └── dummy.xlsx            // Dummy Excel file with travel data.
+│   └── dummy.xlsx            # Sample Excel file with travel data.
 ├── cmd
-│   └── main.go        // Entry point.
+│   └── main.go               # Entry point.
 ├── internal
 │   ├── controllers
-│   │   └── excel_controller.go  
+│   │   └── excel_controller.go  # API controller for file upload.
 │   ├── middleware
-│   │   └── validate_excel.go    
+│   │   └── validate_excel.go    # Middleware for validating Excel file.
 │   ├── models
-│   │   └── excel.go             
+│   │   └── excel.go             # Data model for Excel records.
 │   └── services
-│       └── template_service.go  
+│       └── template_service.go  # Core logic to process Excel and templates.
 ├── pkg
 │   └── utils
-│       └── file_utils.go        
+│       └── file_utils.go        # Utility functions for file handling.
 ├── templates
-│   └── template.txt           
-├── uploads          
+│   └── template.txt           # Predefined text template.
+├── uploads                    # Directory for uploaded files.
 ├── go.mod                     # Go module file.
 ├── go.sum                     # Dependencies file.
 └── README.md                  # Project documentation.
+
+.
 ```
