@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"TNP_TASK_2/internal/services"
+	"travel/m/internal/services"
 )
 
 func main() {
