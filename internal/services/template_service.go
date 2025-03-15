@@ -1,7 +1,7 @@
 package services
 
 import (
-	"TNP_TASK_2/internal/models"
+	"travel/m/internal/models"
 	"bytes"
 	"fmt"
 	"os"
