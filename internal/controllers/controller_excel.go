@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"TNP_TASK_2/internal/services"
-	"TNP_TASK_2/pkg/utils"
+	"travel/m/internal/services"
+	"travel/m/pkg/utils"
 	"fmt"
 	"log"
 	"net/http"
